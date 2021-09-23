@@ -4,3 +4,4 @@
 TEST(TestName_Other, Foo3) {
     ASSERT_TRUE(true);
 }
+

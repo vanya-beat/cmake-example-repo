@@ -13,18 +13,18 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Configure CMake
+    - name: Configure CMake (Конфигурация CMake)
       run: cmake -S $GITHUB_WORKSPACE -B ${{runner.workspace}}/build
 
-    - name: Build
+    - name: Build (Сборка)
       working-directory: ${{runner.workspace}}/build
       run: cmake --build .
 
-    - name: Test
+    - name: Tests (Тесты)
       working-directory: ${{runner.workspace}}/build
       run: GTEST_OUTPUT=xml:test-results/ GTEST_COLOR=1 ctest -V
 
-    - name: Upload test results
+    - name: Upload test results (Загрузка результатов тестов)
       uses: actions/upload-artifact@v2
       if: failure()
       with:
