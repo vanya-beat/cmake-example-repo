@@ -2,7 +2,7 @@
 
 | **CI Service** | Build Status |
 |:---------------|-------------:|
-| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/GHF/googletest-ci/workflows/CMake%20Tests/badge.svg)](https://github.com/vanyabeat/cmake-example-repo/actions?query=workflow%3A"CMake%20Tests") |
+| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/vanyabeat/cmake-example-repo/actions/workflows/ci-cmake_tests.yml/badge.svg)](https://github.com/vanyabeat/cmake-example-repo/actions/workflows/ci-cmake_tests.yml) |
 
 Примеры гуглтестов [Google Test](https://code.google.com/p/googletest)
 
