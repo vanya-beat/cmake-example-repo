@@ -1,5 +1,5 @@
 #include "h1.h"
 
-int func(int a){
+int func(int a) {
     return a;
 }
