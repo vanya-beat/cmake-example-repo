@@ -1,22 +1,19 @@
 # cmake-example-repo
+# This is a simple example for default BMSTU homework (CMake project)
 
-| **CI Service** | Build Status |
-|:---------------|-------------:|
-| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/vanyabeat/cmake-example-repo/actions/workflows/ci-cmake_tests.yml/badge.svg)](https://github.com/vanyabeat/cmake-example-repo/actions/workflows/ci-cmake_tests.yml) |
-
-Примеры гуглтестов [Google Test](https://code.google.com/p/googletest)
-
-## Сборка
-
-После того как склонировали, собирите:
-bash
-```
-cmake -S . -B mybuild
-cd mybuild
-cmake --build .
+# ## How to build
+# 1. Clone this repository
+# 2. Go to the root of the repository
+# 3. Run the following commands:
+```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
 ```
 
-Запустить тесты:
-```
-ctest
-```
+# Status badges
+
+[//]: # (Badges)
+[![C++ Style Check (Проверка стиля кода)](https://github.com/vanya-beat/cmake-example-repo/actions/workflows/ci-cpp-style-check.yml/badge.svg?branch=main)](https://github.com/vanya-beat/cmake-example-repo/actions/workflows/ci-cpp-style-check.yml)
+[![CMake Tests](https://github.com/vanya-beat/cmake-example-repo/actions/workflows/ci-cmake-tests.yml/badge.svg)](https://github.com/vanya-beat/cmake-example-repo/actions/workflows/ci-cmake-tests.yml)
